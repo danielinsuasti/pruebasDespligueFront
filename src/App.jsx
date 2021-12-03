@@ -27,7 +27,7 @@ function App() {
     <Auth0Provider
       domain='misiontic-concesionario-motos.us.auth0.com' //MODIFICADO
       clientId='0fgnn4WsqOHlrBzsLpZd1ojxKnmnKRYT' //MODIFICADO
-      redirectUri='http://localhost:3000/admin' //MODIFICADO
+      redirectUri='https://boiling-wave-01184.herokuapp.com/admin' //MODIFICADO
       audience='api-autenticacion-concesionario-motos'//ORGANIZAR Carefully!!
     >
       <div className='App'>
